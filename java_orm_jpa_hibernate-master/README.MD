@@ -1,11 +1,24 @@
-# JAVA: Mapeamento Objeto-Relacional (ORM - Object-Relational Mapping)
+Projeto de gerador de notícias
 
-## ** Fabrício Galende Marques de Carvalho **
-## Guia dos exemplos:
+Link para o repositório: https://github.com/RafaelRez75/LES
+Link para o vídeo com a execução do projeto: https://youtu.be/4R1pr8A_XW8
 
-* simple_crud: Exemplo simples de CRUD em um único arquivo de aplicação. Comentar ou remover comentários de acordo com a operação CRUD desejada. Notar que a remoção, busca e alteração devem ser executadas depois de se fazer pelo menos uma inserção.  
+Segue o passo a passo para execução do projeto:
 
-* simple_web_app_list: Exemplo integrando JPA/Hibernate com aplicação web. Efetua a listagem dos nomes dos usuários em uma base de dados. Antes de executar esse exemplo, execute simple_crud para inserção ou popule a base de dados manualmente.
+1- Baixar o Sistema Gerenciador de Bando de Dados MariaDB
+
+O sistema servirá a fim de cadastrar notícias e fazer leitura das mesmas. É recomendável fazer o download pelo link:
+https://downloads.mariadb.org/interstitial/mariadb-10.2.10/winx64-packages/mariadb-10.2.10-winx64.msi/from/http%3A//ftp.hosteurope.de/mirror/archive.mariadb.org/
+
+2 - Acessar o cmd pelo caminho na pasta 'bin' da pasta do MariaDB que estará nos Arquivos de Programa
+
+3 - Digitar o seguinte comando "mysql -u root -p" e definir a senha como root
+
+4 - Criar a base de dados "lab_es" com o comando "create database lab_es"
+
+5 - Abrir outro cmd com o caminho da pasta "simple_web_app_list"
+
+6 - Digitar o comando "gradle apprun"
 
 
-## OBS: Criar a base de dados e configurar apropriadamente a unidade de persistência (persistence.xml) antes de executar cada aplicação.
+OBS.: É necessário previamente já ter instalado o Gradle senão o comando gradle apprun não surtirá efeito

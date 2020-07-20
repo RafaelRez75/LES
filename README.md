@@ -1,5 +1,8 @@
 Projeto de gerador de notícias
 
+Link para o repositório: https://github.com/RafaelRez75/LES
+Link para o vídeo com a execução do projeto: https://youtu.be/4R1pr8A_XW8
+
 Segue o passo a passo para execução do projeto:
 
 1- Baixar o Sistema Gerenciador de Bando de Dados MariaDB
